@@ -1,0 +1,8 @@
+C:\Users\Patrick\code\csharp\rapi\bin\Debug\netcoreapp1.1\Starter.deps.json
+C:\Users\Patrick\code\csharp\rapi\bin\Debug\netcoreapp1.1\Starter.runtimeconfig.json
+C:\Users\Patrick\code\csharp\rapi\bin\Debug\netcoreapp1.1\Starter.runtimeconfig.dev.json
+C:\Users\Patrick\code\csharp\rapi\obj\Debug\netcoreapp1.1\Starter.AssemblyInfo.cs
+C:\Users\Patrick\code\csharp\rapi\bin\Debug\netcoreapp1.1\Starter.dll
+C:\Users\Patrick\code\csharp\rapi\bin\Debug\netcoreapp1.1\Starter.pdb
+C:\Users\Patrick\code\csharp\rapi\obj\Debug\netcoreapp1.1\Starter.dll
+C:\Users\Patrick\code\csharp\rapi\obj\Debug\netcoreapp1.1\Starter.pdb

@@ -9329,16 +9329,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Patrick\\code\\csharp\\rapi\\Starter.csproj",
+      "projectUniqueName": "C:\\Users\\Patrick\\code\\csharp\\rapi\\Starter.csproj",
       "projectName": "Starter",
-      "projectPath": "c:\\Users\\Patrick\\code\\csharp\\rapi\\Starter.csproj",
-      "outputPath": "c:\\Users\\Patrick\\code\\csharp\\rapi\\obj\\",
+      "projectPath": "C:\\Users\\Patrick\\code\\csharp\\rapi\\Starter.csproj",
+      "outputPath": "C:\\Users\\Patrick\\code\\csharp\\rapi\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/Starter.dll": "c:\\Users\\Patrick\\code\\csharp\\rapi\\bin\\placeholder\\netcoreapp1.1\\Starter.dll"
+        "lib/netcoreapp1.1/Starter.dll": "C:\\Users\\Patrick\\code\\csharp\\rapi\\bin\\placeholder\\netcoreapp1.1\\Starter.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {

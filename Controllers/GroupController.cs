@@ -10,5 +10,24 @@ namespace MusicApi.Controllers {
             allGroups = JsonToFile<Group>.ReadJson();
         }
 
+        [HttpGet]
+        [Route("groups")]
+        public JsonResult AllGroups()
+        {
+            return Json(allGroups);
+        }
+
+        [HttpGet]
+        [Route("groups/name/{name}")]
+        public JsonResult NameSearch(string name) {
+            return Json(allGroups.Where(group => group.GroupName == name));
+        }
+
+        [HttpGet]
+        [Route("groups/id/{id}")]
+        public JsonResult IdSearch(int id)
+        {
+            return Json(allGroups.Where(group => group.Id == id));
+        }
     }
 }

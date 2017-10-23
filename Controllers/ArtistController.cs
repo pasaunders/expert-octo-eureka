@@ -14,6 +14,41 @@ namespace MusicApi.Controllers {
             allArtists = JsonToFile<Artist>.ReadJson();
         }
 
+        [HttpGet]
+        [Route("artists")]
+        public JsonResult Artists()
+        {
+            return Json(allArtists);
+        }
+
+        [HttpGet]
+        [Route("artists/name/{name}")]
+        public JsonResult NameSearch(string name)
+        {
+            return Json(allArtists.Where( artist => artist.ArtistName == name));
+        }
+
+        [HttpGet]
+        [Route("artists/realname/{name}")]
+        public JsonResult RealSearch(string name)
+        {
+            return Json(allArtists.Where( artist => artist.RealName == name));
+        }
+
+        [HttpGet]
+        [Route("artists/hometown/{town}")]
+        public JsonResult TownSearch(string town)
+        {
+            return Json(allArtists.Where( artist => artist.Hometown == town));
+        }
+
+        [HttpGet]
+        [Route("artists/groupid/{id}")]
+        public JsonResult IdSearch(int id)
+        {
+            return Json(allArtists.Where( artist => artist.GroupId == id));
+        }
+
         //This method is shown to the user navigating to the default API domain name
         //It just display some basic information on how this API functions
         [Route("")]
